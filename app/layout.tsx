@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Providers from "./providers";
 import "./globals.css";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/navbar";
-import Link from "next/link";
+import { Link } from "@heroui/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,27 +31,32 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Providers>
-          <Navbar>
-            <NavbarBrand>
-              <Link href="/">hachimi.tv</Link>
-            </NavbarBrand>
-            <NavbarContent justify="center">
-              <NavbarItem>
-                <Link href="/discover">Discover</Link>
-              </NavbarItem>
-              <NavbarItem>
-                <Link href="/feed">Feed</Link>
-              </NavbarItem>
-              <NavbarItem>
-                <Link href="/platform">Platform</Link>
-              </NavbarItem>
-            </NavbarContent>
-            <NavbarContent justify="end">
-              <NavbarItem>
-                <Link href="/login">Login</Link>
-              </NavbarItem>
-            </NavbarContent>
-          </Navbar>
+          <div className="dark">
+            <Navbar className="bg-slate-950">
+              <NavbarBrand>
+                <Link color="foreground" href="/">
+                  hachimi.tv
+                </Link>
+              </NavbarBrand>
+              <NavbarContent justify="center">
+                <NavbarItem>
+                  <Link href="/discover">Discover</Link>
+                </NavbarItem>
+                <NavbarItem>
+                  <Link href="/feed">Feed</Link>
+                </NavbarItem>
+                <NavbarItem>
+                  <Link href="/platform">Platform</Link>
+                </NavbarItem>
+              </NavbarContent>
+              <NavbarContent justify="end">
+                <NavbarItem>
+                  <Link href="/login">Login</Link>
+                </NavbarItem>
+              </NavbarContent>
+            </Navbar>
+            {children}
+          </div>
         </Providers>
       </body>
     </html>
