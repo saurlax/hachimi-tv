@@ -19,8 +19,12 @@ export default function Home() {
 
       <section className="relative mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 pb-16 pt-20">
         <div className="flex flex-wrap items-center gap-3 text-sm uppercase tracking-[0.3em] text-slate-300">
-          <Chip className="border border-pink-300/40 bg-pink-400/10 text-slate-100">Hachimi Stream</Chip>
-          <Chip className="border border-cyan-200/40 bg-cyan-300/10 text-slate-100">Cute but sharp</Chip>
+          <Chip className="border border-pink-300/40 bg-pink-400/10 text-slate-100">
+            Hachimi Stream
+          </Chip>
+          <Chip className="border border-cyan-200/40 bg-cyan-300/10 text-slate-100">
+            Cute but sharp
+          </Chip>
         </div>
 
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
@@ -57,7 +61,10 @@ export default function Home() {
                 { value: "8k+", label: "active creators" },
                 { value: "4.9", label: "community rating" },
               ].map((stat) => (
-                <Card key={stat.label} className="border border-white/10 bg-white/5">
+                <Card
+                  key={stat.label}
+                  className="border border-white/10 bg-white/5"
+                >
                   <CardBody className="px-4 py-3">
                     <p className="text-slate-100">{stat.value}</p>
                     <p className="text-slate-300/70">{stat.label}</p>
@@ -68,10 +75,14 @@ export default function Home() {
           </div>
 
           <div className="grid gap-4">
-            <Card className="border border-white/10 bg-gradient-to-br from-white/10 via-white/5 to-white/0">
+            <Card className="border border-white/10 bg-linear-to-br from-white/10 via-white/5 to-white/0">
               <CardHeader className="flex items-center justify-between">
-                <p className="text-xs uppercase tracking-[0.3em] text-pink-200/80">Live now</p>
-                <Chip className="bg-pink-400/20 text-xs text-pink-100">4 rooms</Chip>
+                <p className="text-xs uppercase tracking-[0.3em] text-pink-200/80">
+                  Live now
+                </p>
+                <Chip className="bg-pink-400/20 text-xs text-pink-100">
+                  4 rooms
+                </Chip>
               </CardHeader>
               <CardBody className="space-y-4">
                 {[
@@ -98,12 +109,21 @@ export default function Home() {
 
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                { title: "Hachimi radar", detail: "Find the cutest clips fast" },
-                { title: "Creator kits", detail: "Brand kits, overlays, loops" },
+                {
+                  title: "Hachimi radar",
+                  detail: "Find the cutest clips fast",
+                },
+                {
+                  title: "Creator kits",
+                  detail: "Brand kits, overlays, loops",
+                },
                 { title: "Cozy rooms", detail: "Invite-only stream hangouts" },
                 { title: "Instant remix", detail: "Clip, stitch, and share" },
               ].map((item) => (
-                <Card key={item.title} className="border border-white/10 bg-white/5">
+                <Card
+                  key={item.title}
+                  className="border border-white/10 bg-white/5"
+                >
                   <CardBody className="p-4 text-sm text-slate-200">
                     <p className="text-base text-slate-100">{item.title}</p>
                     <p className="mt-1 text-slate-400">{item.detail}</p>
@@ -118,7 +138,9 @@ export default function Home() {
       <section className="relative mx-auto w-full max-w-6xl px-6 pb-16">
         <div className="mb-8 flex items-center justify-between">
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-cyan-200/70">Trending</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-cyan-200/70">
+              Trending
+            </p>
             <h2 className="mt-3 text-2xl font-semibold text-slate-100">
               Tonight is a hachimi night.
             </h2>
@@ -139,10 +161,10 @@ export default function Home() {
           ].map((item) => (
             <Card
               key={item.title}
-              className="group border border-white/10 bg-gradient-to-br from-slate-900/80 via-slate-900/40 to-slate-900/10"
+              className="group border border-white/10 bg-linear-to-br from-slate-900/80 via-slate-900/40 to-slate-900/10"
             >
               <CardBody className="p-5">
-                <div className="flex h-44 items-end justify-between rounded-2xl bg-gradient-to-br from-pink-500/30 via-fuchsia-500/10 to-cyan-400/20 p-4">
+                <div className="flex h-44 items-end justify-between rounded-2xl bg-linear-to-br from-pink-500/30 via-fuchsia-500/10 to-cyan-400/20 p-4">
                   <Chip className="bg-white/15 text-xs uppercase tracking-[0.2em] text-white/80">
                     {item.tag}
                   </Chip>
@@ -161,13 +183,15 @@ export default function Home() {
         <Card className="border border-white/10 bg-white/5">
           <CardBody className="grid gap-8 p-8 md:grid-cols-[1.2fr_0.8fr] md:items-center md:p-12">
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-pink-200/80">For creators</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-pink-200/80">
+                For creators
+              </p>
               <h3 className="mt-4 text-3xl font-semibold text-slate-100">
                 Make your hachimi glow.
               </h3>
               <p className="mt-3 text-slate-300">
-                Launch a channel in minutes. Customize your room, set cozy
-                mood filters, and pin the cutest moments on your front page.
+                Launch a channel in minutes. Customize your room, set cozy mood
+                filters, and pin the cutest moments on your front page.
               </p>
             </div>
             <div className="flex flex-col gap-4">

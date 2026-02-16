@@ -62,7 +62,9 @@ export default function RootLayout({
                 </Link>
               </NavbarItem>
               <NavbarItem>
-                <Button color="primary">Login</Button>
+                <Button color="primary" as={Link} href="/login">
+                  Login
+                </Button>
               </NavbarItem>
             </NavbarContent>
           </Navbar>
