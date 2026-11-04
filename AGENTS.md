@@ -3,13 +3,13 @@
 ## 产品与范围
 
 - 产品为哈基米小马的视频与音乐生成平台：用户提供参考素材和创作描述，生成、管理并分享自己的作品。导航围绕创作、发现、搜索、我的作品、参考素材和收藏组织。
-- 区分产品目标与实际实现。当前以界面和本地交互为主；已有 Supabase 客户端工具不代表认证、素材存储或生成服务已接通。修改前核实实际调用路径，不将占位、模拟反馈或本地文件选择描述为真实上传、生成或保存。
+- 区分产品目标与实际实现。当前以界面和本地交互为主，认证、素材存储和生成服务尚未接通。修改前核实实际调用路径，不将占位、模拟反馈或本地文件选择描述为真实上传、生成或保存。
 - 不自行增加积分、套餐、排行榜、任务奖励、社交系统或其他无关流程。常规实现选择直接完成，架构不确定性会造成实质返工时再澄清。
 
 ## 技术与组织
 
 - 使用 Next.js App Router、React、TypeScript、Tailwind CSS v4 与 shadcn/ui，包管理器遵循 `package.json` 的 `packageManager`，依赖和 `pnpm-lock.yaml` 同步维护。
-- 路由与布局位于 `app/`，业务组件位于 `components/`，shadcn 基础组件位于 `components/ui/`，通用 Hook 位于 `hooks/`，Supabase 工具位于 `utils/supabase/`。先读相关代码和 `components.json`，沿用现有职责与配置。
+- 路由与布局位于 `app/`，业务组件位于 `components/`，shadcn 基础组件位于 `components/ui/`，通用 Hook 位于 `hooks/`。项目不使用 Supabase。先读相关代码和 `components.json`，沿用现有职责与配置。
 - shadcn 使用 `radix-nova`、Radix UI 与 Lucide 图标；优先复用现有组件、变体和主题变量，不重新引入 HeroUI 或并行维护另一套组件系统。业务专属样式留在业务组件，不随意改基础组件影响所有页面。
 - 不添加无必要的依赖、抽象或测试框架。不提前构造通用生成引擎、仓储层、任务调度系统或多供应商兼容层。
 - 查询库、框架、SDK、API、CLI 或云服务用法时，先用 Context7 `resolve-library-id`，再 `query-docs`；优先官方资料。写 Next.js 相关代码前同时阅读本地 `node_modules/next/dist/docs/` 的对应文档。
