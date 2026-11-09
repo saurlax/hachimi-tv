@@ -58,7 +58,7 @@ export function AppSidebar({
   const { isMobile, setOpenMobile } = useSidebar();
   function menu(items: typeof main | typeof workspace) {
     return (
-      <SidebarMenu>
+      <SidebarMenu className="gap-1">
         {items.map(({ title, icon: Icon }) => (
           <SidebarMenuItem key={title}>
             <SidebarMenuButton
@@ -107,7 +107,6 @@ export function AppSidebar({
       </SidebarContent>
       <SidebarFooter className="border-t">
         {session ? <>
-          <span className="truncate px-2 text-sm">{session.user.name}</span>
           <Button variant="outline" onClick={async () => { const result = await authClient.signOut(); setSessionError(!!result.error); }}><LogOut />{t("signOut")}</Button>
           {sessionError && <p role="alert" className="text-xs text-destructive">{t("authFailed")}</p>}
         </> : <Button asChild disabled={isPending}><Link href="/login"><LogIn />{t("signIn")}</Link></Button>}
