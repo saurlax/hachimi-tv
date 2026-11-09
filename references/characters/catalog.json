@@ -1,0 +1,1038 @@
+{
+  "collected_at": "2026-11-08",
+  "characters": [
+    {
+      "id": "tokaiteio",
+      "name_zh": "东海帝王",
+      "name_ja": "トウカイテイオー",
+      "name_en": "Tokai Teio",
+      "aliases": [
+        "帝宝",
+        "哈基米"
+      ],
+      "official_page": "https://umamusume.jp/character/tokaiteio/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "トウカイテイオー 制服",
+          "source_page": "https://umamusume.jp/character/tokaiteio/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6bcecd8749a74a26a91c8882866d803f/tokaiteio_01.png",
+          "local_path": "public/materials/builtin/tokaiteio/original/tokaiteio_01.png",
+          "bytes": 598316,
+          "sha256": "9934a1ba344a6955c18ca1b370dfd95771f5c0449024a35d3af013324a81129b",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "トウカイテイオー 勝負服",
+          "source_page": "https://umamusume.jp/character/tokaiteio/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/22d0e81b38644f22bbe1714c3125ff23/tokaiteio_02.png",
+          "local_path": "public/materials/builtin/tokaiteio/original/tokaiteio_02.png",
+          "bytes": 698850,
+          "sha256": "6ad698448a5a33da7ea5af1193c311d600cd04b2825280c9faa3609b43736095",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "トウカイテイオー 原案",
+          "source_page": "https://umamusume.jp/character/tokaiteio/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/374afd24dd6b4811bfa737f66b6e6795/tokaiteio_03.png",
+          "local_path": "public/materials/builtin/tokaiteio/original/tokaiteio_03.png",
+          "bytes": 918184,
+          "sha256": "b1c9e1c70b9423bef445fccc2495f1a381104cd2fffa5e5c8c407d63f9ce7510",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "トウカイテイオー <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/tokaiteio/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/048c72d0bb1246918be2cacb89616e26/tokaiteio_04.png",
+          "local_path": "public/materials/builtin/tokaiteio/original/tokaiteio_04.png",
+          "bytes": 859871,
+          "sha256": "ba57ca2cfe5391858dd2a18c925dd83c99e7cb74f46d9e66c9741a18c626b7ce",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-icon",
+          "label": "秋トウカイテイオーのアイコン",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/423577",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_146.png",
+          "local_path": "public/materials/builtin/tokaiteio/cute/sd_146.png",
+          "bytes": 14223,
+          "dimensions": [
+            240,
+            240
+          ],
+          "sha256": "da412b172ad8ea311ccf382dce55b4e9c1c2b021fd4a33e851528cd30c79eed3",
+          "rights": "Game art by Cygames, hosted by GameWith; reference only; not a reusable platform asset",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-full-body",
+          "label": "トウカイテイオー SD",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/257410",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_3.png",
+          "local_path": "public/materials/builtin/tokaiteio/cute/sd_3.png",
+          "bytes": 11236,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "0ef33a57d0a35078055ce36618144b6691f8ba93276ab67116a7d5482ffc1d8c",
+          "rights": "Cygames artwork hosted by GameWith; local reference only, not licensed for platform distribution",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "missing-verified-front-side-back-sheet",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "つかさ式ていおーV2",
+          "author": "つかさ",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td79573",
+          "evidence_url": "https://www.nicozon.net/watch/sm39454443",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    },
+    {
+      "id": "matikanetannhauser",
+      "name_zh": "待兼诗歌剧",
+      "name_ja": "マチカネタンホイザ",
+      "name_en": "Matikanetannhauser",
+      "aliases": [
+        "诗歌剧",
+        "曼波"
+      ],
+      "official_page": "https://umamusume.jp/character/matikanetannhauser/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "マチカネタンホイザ 制服",
+          "source_page": "https://umamusume.jp/character/matikanetannhauser/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6618b991e38948639d4a4ce5bf5cfa9b/matikanetannhauser_01.png",
+          "local_path": "public/materials/builtin/matikanetannhauser/original/matikanetannhauser_01.png",
+          "bytes": 753437,
+          "sha256": "66105f594ec24fba118198b2603b165d2fe35ea661f89a53df7109e745eb68bf",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "マチカネタンホイザ 勝負服",
+          "source_page": "https://umamusume.jp/character/matikanetannhauser/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f859d3a9353645a1a78972704657c489/matikanetannhauser_02.png",
+          "local_path": "public/materials/builtin/matikanetannhauser/original/matikanetannhauser_02.png",
+          "bytes": 953650,
+          "sha256": "2c309960ffaac33d37b4d4e5c9f82743d1d2a5a4f32e82830f77aad4142f1e21",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "マチカネタンホイザ 原案",
+          "source_page": "https://umamusume.jp/character/matikanetannhauser/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c4a8118d40bb482fb370afda1c5c601e/matikanetannhauser_03.png",
+          "local_path": "public/materials/builtin/matikanetannhauser/original/matikanetannhauser_03.png",
+          "bytes": 860956,
+          "sha256": "c2330b1a49a6c06dc52bca468da29203f36125990170893c6a0aa9ff0c3b4322",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            788,
+            1387
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "マチカネタンホイザ <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/matikanetannhauser/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/8acfd1f74e264edc9ed750bea7c85267/matikanetannhauser_04.png",
+          "local_path": "public/materials/builtin/matikanetannhauser/original/matikanetannhauser_04.png",
+          "bytes": 935550,
+          "sha256": "7bbce8b2bc3bd785d4fb7fce1bdd0b1b8e71254c5ba75adaec8658c0d5286f1a",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-icon",
+          "label": "マチカネタンホイザのアイコン",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/254536",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_70.png",
+          "local_path": "public/materials/builtin/matikanetannhauser/cute/sd_70.png",
+          "bytes": 11516,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "e1e58e52ccd7a51078b47f44f23c45fa869b785d0cf615966fd56abfe1be9f9e",
+          "rights": "Game art by Cygames, hosted by GameWith; reference only; not a reusable platform asset",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "missing-verified-front-side-back-sheet",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "つかさ式まちたん",
+          "author": "つかさ",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td81277",
+          "evidence_url": "https://www.nicovideo.jp/watch/sm39894316",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        },
+        {
+          "title": "マチカネタンホイザVer1.00",
+          "author": "Jean",
+          "format": "PMX",
+          "source_url": "https://bowlroll.net/file/246077",
+          "evidence_url": "https://www.nicovideo.jp/watch/sm38169010",
+          "status": "indexed-not-downloaded",
+          "availability": "BowlRoll page verified; download key referenced by author video",
+          "license_status": "Package readme not inspected; no commercial or redistribution clearance"
+        },
+        {
+          "title": "Mambo",
+          "author": "Niko (uploader)",
+          "format": "VRM",
+          "source_url": "https://hub.vroid.com/characters/5687292021833979291/models/4230516620559805106",
+          "status": "indexed-not-downloaded",
+          "availability": "Public model page verified; original model credited to Cygames, upstream conversion permission not verified",
+          "license_status": "Secondary index reports no modification, redistribution or commercial use; verify original terms. Not approved for platform hosting",
+          "notes": "Meme variant candidate, not a separate official character. Secondary index mislabels the character as original; original page credits Cygames."
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    },
+    {
+      "id": "mejiromcqueen",
+      "name_zh": "目白麦昆",
+      "name_ja": "メジロマックイーン",
+      "name_en": "Mejiro McQueen",
+      "aliases": [
+        "麦昆"
+      ],
+      "official_page": "https://umamusume.jp/character/mejiromcqueen/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "メジロマックイーン 制服",
+          "source_page": "https://umamusume.jp/character/mejiromcqueen/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a67d7f4092af43b4965b99e4f37ec256/mejiromcqueen_01.png",
+          "local_path": "public/materials/builtin/mejiromcqueen/original/mejiromcqueen_01.png",
+          "bytes": 562635,
+          "sha256": "2a1cfc2266f950b67cb5ee747a21d6502633868797c74c26aabb1ddbf55e23dc",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "メジロマックイーン 勝負服",
+          "source_page": "https://umamusume.jp/character/mejiromcqueen/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d7e165c2452344e7ac47467513fd53ba/mejiromcqueen_02.png",
+          "local_path": "public/materials/builtin/mejiromcqueen/original/mejiromcqueen_02.png",
+          "bytes": 805659,
+          "sha256": "b42d91dbb791d238c8a1d3e5ec177bc189bd5bb2210b48440c6ac5f95e31fd08",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "メジロマックイーン 原案",
+          "source_page": "https://umamusume.jp/character/mejiromcqueen/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/5909446461a546028cde05c23bd7519a/mejiromcqueen_03.png",
+          "local_path": "public/materials/builtin/mejiromcqueen/original/mejiromcqueen_03.png",
+          "bytes": 1107585,
+          "sha256": "db032ddea477f9780341f58a388e3a7a59f3caac9e38a2c3d4c8a749201c8359",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "メジロマックイーン <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/mejiromcqueen/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/b1bdba25edf548cabd7c2140bd9269f6/mejiromcqueen_04.png",
+          "local_path": "public/materials/builtin/mejiromcqueen/original/mejiromcqueen_04.png",
+          "bytes": 801447,
+          "sha256": "858f0449818c94296778839e971da30f915354fa947eb731a153f63a6905d7bc",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-icon",
+          "label": "水着メジロマックイーンのアイコン",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/353540",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_89.png",
+          "local_path": "public/materials/builtin/mejiromcqueen/cute/sd_89.png",
+          "bytes": 10673,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "1fb6a3cacc124875249c5a2d65b03d3e77ce6f62f7b67415f069d88f4d4f339a",
+          "rights": "Game art by Cygames, hosted by GameWith; reference only; not a reusable platform asset",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-full-body",
+          "label": "メジロマックイーン SD",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/257406",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_7.png",
+          "local_path": "public/materials/builtin/mejiromcqueen/cute/sd_7.png",
+          "bytes": 12217,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "3527d90b2c589a3d39fda6254b4369ea87a3697a461a0c195f9edd397b0f0052",
+          "rights": "Cygames artwork hosted by GameWith; local reference only, not licensed for platform distribution",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "public-preview-front-three-quarter-back; high-resolution orthographic sheet still missing",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "ShiniNet式 メジ〇マoクイーン",
+          "author": "ShiniNet",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td77145",
+          "evidence_url": "https://www.nicochart.jp/watch/sm38564730",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://www.cghsj.com/wp-content/uploads/2021/04/vip_saimaniang_02.jpg",
+          "source_page": "https://www.cghsj.com/1804.html",
+          "local_path": ".local/character-library/turnaround-previews/setting-preview-02.jpg",
+          "status": "downloaded-public-preview",
+          "views": [
+            "front",
+            "three-quarter",
+            "back"
+          ],
+          "notes": "McQueen block visually inspected. White racing outfit, watermarked low-resolution book preview; not an exact 90-degree side view; no chibi turnaround."
+        },
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    },
+    {
+      "id": "riceshower",
+      "name_zh": "米浴",
+      "name_ja": "ライスシャワー",
+      "name_en": "Rice Shower",
+      "aliases": [],
+      "official_page": "https://umamusume.jp/character/riceshower/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "ライスシャワー 制服",
+          "source_page": "https://umamusume.jp/character/riceshower/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6613c28c407243db9019b8e26745e823/riceshower_01.png",
+          "local_path": "public/materials/builtin/riceshower/original/riceshower_01.png",
+          "bytes": 527471,
+          "sha256": "a99445447c31f8e519fec7e92dba8c0b4f7373d2d4f1a975a1f115027d74d55e",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ライスシャワー 勝負服",
+          "source_page": "https://umamusume.jp/character/riceshower/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a34a77e550084f55ae886b12386d97aa/riceshower_02.png",
+          "local_path": "public/materials/builtin/riceshower/original/riceshower_02.png",
+          "bytes": 728160,
+          "sha256": "9466cb5449cc7caba78f79bb18eb62f35197c32901731695e318a10872579993",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ライスシャワー 原案",
+          "source_page": "https://umamusume.jp/character/riceshower/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/90f915a9af0c4754b9997eac539e7416/riceshower_03.png",
+          "local_path": "public/materials/builtin/riceshower/original/riceshower_03.png",
+          "bytes": 732549,
+          "sha256": "234482fc3f64942ec4a05488cf51fbecd4e0e37f09efc24aace9532142e473b5",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ライスシャワー <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/riceshower/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/3e8484757fc9437ea73e63b9450663d1/riceshower_04.png",
+          "local_path": "public/materials/builtin/riceshower/original/riceshower_04.png",
+          "bytes": 780037,
+          "sha256": "07e60ea4eef724fa9715ee4d5adfb03e176015af2a1cb28dd81dadcea07a96fa",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-full-body",
+          "label": "ライスシャワー SD",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/257404",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_9.png",
+          "local_path": "public/materials/builtin/riceshower/cute/sd_9.png",
+          "bytes": 11876,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "101b9f782d80c1ae708a9886d78efa6901cf0f4ac752cefa497a73895bee9b94",
+          "rights": "Cygames artwork hosted by GameWith; local reference only, not licensed for platform distribution",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "missing-verified-front-side-back-sheet",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "つかさ式らいす",
+          "author": "つかさ",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td79471",
+          "evidence_url": "https://www.nicozon.net/watch/sm39454443",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    },
+    {
+      "id": "goldship",
+      "name_zh": "黄金船",
+      "name_ja": "ゴールドシップ",
+      "name_en": "Gold Ship",
+      "aliases": [
+        "船长"
+      ],
+      "official_page": "https://umamusume.jp/character/goldship/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "ゴールドシップ 制服",
+          "source_page": "https://umamusume.jp/character/goldship/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a513a0e8049e46418b6ba9bffb26dcb7/goldship_01.png",
+          "local_path": "public/materials/builtin/goldship/original/goldship_01.png",
+          "bytes": 622689,
+          "sha256": "43275549b0e562629c5dc9074533646cf184251e4eef3ca14a9bf16f7f73656e",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ゴールドシップ 勝負服",
+          "source_page": "https://umamusume.jp/character/goldship/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a3e95391f9f84d539da524afd78264f0/goldship_02.png",
+          "local_path": "public/materials/builtin/goldship/original/goldship_02.png",
+          "bytes": 835647,
+          "sha256": "d587bd305bc073c3bfac402e1659671a7c26e1e26160e8aba1b8dd8d413d0743",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ゴールドシップ 原案",
+          "source_page": "https://umamusume.jp/character/goldship/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/996bb46c05b44b3490bc8457e3b85ea4/goldship_03.png",
+          "local_path": "public/materials/builtin/goldship/original/goldship_03.png",
+          "bytes": 1130387,
+          "sha256": "c5f8a71201506d94a69ce65fa091087cacab88062f74a2cb627085a847e80585",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ゴールドシップ <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/goldship/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/4aa7f0cd812a4721a35889670fb48709/goldship_04.png",
+          "local_path": "public/materials/builtin/goldship/original/goldship_04.png",
+          "bytes": 1013060,
+          "sha256": "3a83da97d1ac2209d36746c3efb708de74f88e4cd5d830512f395d4916dc92c2",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-full-body",
+          "label": "ゴールドシップ SD",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/257403",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_10.png",
+          "local_path": "public/materials/builtin/goldship/cute/sd_10.png",
+          "bytes": 11993,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "e6e4d94b4dff2913deb6abf1d7c0c9d1e3a22a33401ba717108ca049dfbbaf75",
+          "rights": "Cygames artwork hosted by GameWith; local reference only, not licensed for platform distribution",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "missing-verified-front-side-back-sheet",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "ShiniNet式 ゴー〇ドシップ",
+          "author": "ShiniNet",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td76863",
+          "evidence_url": "https://www.nicochart.jp/watch/sm38564730",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    },
+    {
+      "id": "oguricap",
+      "name_zh": "小栗帽",
+      "name_ja": "オグリキャップ",
+      "name_en": "Oguri Cap",
+      "aliases": [
+        "栗帽"
+      ],
+      "official_page": "https://umamusume.jp/character/oguricap/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "オグリキャップ 制服",
+          "source_page": "https://umamusume.jp/character/oguricap/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f451f629f5934a59a77d2a6a0a4dfa82/oguricap_01.png",
+          "local_path": "public/materials/builtin/oguricap/original/oguricap_01.png",
+          "bytes": 732012,
+          "sha256": "da3d9452509e287624edbbae3246741a838ed14f36f64356eb6437fe3eb223fd",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "オグリキャップ 勝負服",
+          "source_page": "https://umamusume.jp/character/oguricap/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/82b20a3edaaf424c8aece70590a9d7e2/oguricap_02.png",
+          "local_path": "public/materials/builtin/oguricap/original/oguricap_02.png",
+          "bytes": 752982,
+          "sha256": "01520a3ff3281b8bebb1b9c430c741d46dc5dd9ad1ad34e4b7b61280a2868ad8",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "オグリキャップ 原案",
+          "source_page": "https://umamusume.jp/character/oguricap/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/b93fda1e061b48eda9002f627dad53e5/oguricap_03.png",
+          "local_path": "public/materials/builtin/oguricap/original/oguricap_03.png",
+          "bytes": 1125169,
+          "sha256": "b9d425654fb6eaa2b829143d196c5811e64406ba3c264137f5d3514ccb25c15e",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "オグリキャップ <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/oguricap/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/da57c94ae63e494592022c2c6ff89f4c/oguricap_04.png",
+          "local_path": "public/materials/builtin/oguricap/original/oguricap_04.png",
+          "bytes": 948629,
+          "sha256": "488876f460f3a0e953b57e2bd8374821141a1beac3b3e07f0a2bfd74ea0fa4d4",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-icon",
+          "label": "オグリキャップのアイコン",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/534222",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_5.png",
+          "local_path": "public/materials/builtin/oguricap/cute/sd_5.png",
+          "bytes": 12949,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "2155b467c4dd5619d40923cf50848f817f4aa20c6af4849632ec08de59607824",
+          "rights": "Game art by Cygames, hosted by GameWith; reference only; not a reusable platform asset",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "missing-verified-front-side-back-sheet",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "ShiniNet式 オグリ〇ャップ",
+          "author": "ShiniNet",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td77620",
+          "evidence_url": "https://www.nicozon.net/watch/sm38846182",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    },
+    {
+      "id": "twinturbo",
+      "name_zh": "双涡轮",
+      "name_ja": "ツインターボ",
+      "name_en": "Twin Turbo",
+      "aliases": [
+        "师匠"
+      ],
+      "official_page": "https://umamusume.jp/character/twinturbo/",
+      "assets": [
+        {
+          "kind": "official-character-art",
+          "label": "ツインターボ 制服",
+          "source_page": "https://umamusume.jp/character/twinturbo/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/97a44e4e5ec64c4cbfa4965a2f26692a/twinturbo_01.png",
+          "local_path": "public/materials/builtin/twinturbo/original/twinturbo_01.png",
+          "bytes": 803438,
+          "sha256": "935007aba658551d0e2d1576ad2daffb80af3aaa83cd400e27216c583cb0d658",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1162,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ツインターボ 勝負服",
+          "source_page": "https://umamusume.jp/character/twinturbo/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/e5bc87f0f01648779e18a28033d024d1/twinturbo_02.png",
+          "local_path": "public/materials/builtin/twinturbo/original/twinturbo_02.png",
+          "bytes": 926856,
+          "sha256": "aa6d3a277964222ac7697abbe9bbc7addcea822774a4354525ce4f8b5dda2327",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ツインターボ 原案",
+          "source_page": "https://umamusume.jp/character/twinturbo/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/d0d4bfa69ee446bd8fbc363a71941077/twinturbo_03.png",
+          "local_path": "public/materials/builtin/twinturbo/original/twinturbo_03.png",
+          "bytes": 785558,
+          "sha256": "81955f4d1e34070010387d952069f60bae3481e47ed59774890613be897a1843",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            840,
+            1386
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "official-character-art",
+          "label": "ツインターボ <small>STARTING<br>FUTURE</small>",
+          "source_page": "https://umamusume.jp/character/twinturbo/",
+          "source_url": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c09cb7d116224a2fbc452f5546aa8586/twinturbo_04.png",
+          "local_path": "public/materials/builtin/twinturbo/original/twinturbo_04.png",
+          "bytes": 982526,
+          "sha256": "bff6d5f76a8910295c8745cf781f6396f658d9d37f2ad947e4d8144fb708234f",
+          "rights": "Cygames; reference only, no platform distribution permission obtained",
+          "dimensions": [
+            1125,
+            1980
+          ],
+          "view": "single-view-artwork",
+          "style": "original",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        },
+        {
+          "kind": "chibi-icon",
+          "label": "ツインターボのアイコン",
+          "source_page": "https://gamewith.jp/uma-musume/article/show/388765",
+          "source_url": "https://img.gamewith.jp/article_tools/uma-musume/gacha/sd_118.png",
+          "local_path": "public/materials/builtin/twinturbo/cute/sd_118.png",
+          "bytes": 40903,
+          "dimensions": [
+            200,
+            200
+          ],
+          "sha256": "63aa7e89b1f1fa3dfd71a0b5b244844ac5c5f83b1c67ac7df498dee581080ad4",
+          "rights": "Game art by Cygames, hosted by GameWith; reference only; not a reusable platform asset",
+          "view": "single-view-artwork",
+          "style": "cute-sd",
+          "ai_input_permission": "not-verified",
+          "origin": "builtin"
+        }
+      ],
+      "turnaround_status": "missing-verified-front-side-back-sheet",
+      "chibi_status": "downloaded-full-body",
+      "models": [
+        {
+          "title": "つかさ式たーぼ",
+          "author": "つかさ",
+          "format": "MMD; package format not inspected",
+          "source_url": "https://3d.nicovideo.jp/works/td78090",
+          "evidence_url": "https://www.nicozon.net/watch/sm39454443",
+          "status": "indexed-not-downloaded",
+          "availability": "Original distribution page could not be fetched on collection date; existence corroborated by credits/distribution video",
+          "license_status": "Readme and current terms not inspected; commercial use, redistribution, conversion, AI input and web embedding are not approved"
+        }
+      ],
+      "turnarounds": [
+        {
+          "source_url": "https://umarefs.crd.co/",
+          "title": "UmaRefs character reference directory by linryn",
+          "status": "indexed-not-downloaded",
+          "notes": "Character is listed; individual reference sheets not fetched. Front/side/back coverage not verified."
+        },
+        {
+          "source_url": "https://tohoentertainmentonline.com/shop/g/gTASG01466/",
+          "title": "Official Season 1 setting book, P.A.WORKS / TOHO",
+          "status": "book-source-only",
+          "notes": "80-page official character/prop/art settings. Exact coverage of this character and turnaround sheets not verified; not purchased."
+        }
+      ]
+    }
+  ],
+  "guidelines_url": "https://umamusume.jp/derivativework_guidelines/",
+  "scope": "Local research library; not connected to the product UI or generation pipeline",
+  "additional_sources": [
+    {
+      "title": "Official Umayuru animation",
+      "url": "https://umamusume.jp/anime/umayuru/",
+      "use": "Cute animation, proportions and expressions"
+    },
+    {
+      "title": "Official chibi wallpaper compilation repost",
+      "url": "https://www.bilibili.com/read/cv22111846/",
+      "use": "Discovery only; upstream attribution not verified"
+    },
+    {
+      "title": "SD Agnes Digital model, Yoshi",
+      "url": "https://3d.nicovideo.jp/works/td83578",
+      "evidence_url": "https://www.nicozon.net/watch/sm40710916",
+      "use": "Additional chibi MMD candidate outside initial seven"
+    },
+    {
+      "title": "Setting scan compilation",
+      "url": "https://www.cghsj.com/1804.html",
+      "use": "Only the two publicly visible watermarked preview JPGs were saved. Full membership-gated scans were not accessed."
+    }
+  ],
+  "shared_assets": [
+    {
+      "kind": "public-book-preview",
+      "source_page": "https://www.cghsj.com/1804.html",
+      "source_url": "https://www.cghsj.com/wp-content/uploads/2021/04/vip_saimaniang_02.jpg",
+      "local_path": ".local/character-library/turnaround-previews/setting-preview-02.jpg",
+      "bytes": 216839,
+      "sha256": "926848628d1673a1b11ee1b4c8bc3af3a5d76576a6d194a9f62c495fc1e7b288",
+      "dimensions": [
+        750,
+        2141
+      ],
+      "rights": "Public preview from third-party repost, watermarked; original publisher permission not verified; local research only",
+      "inspected_contents": "Special Week expressions and front/three-quarter/back school uniform; Silence Suzuka and Mejiro McQueen front/three-quarter/back race outfit; additional face studies"
+    },
+    {
+      "kind": "public-book-preview",
+      "source_page": "https://www.cghsj.com/1804.html",
+      "source_url": "https://www.cghsj.com/wp-content/uploads/2021/04/vip_saimaniang_03.jpg",
+      "local_path": ".local/character-library/turnaround-previews/setting-preview-03.jpg",
+      "bytes": 388467,
+      "sha256": "760072b7614d8e5283c9929c51103256ecdfb9f26928da5a1507038b70f7a053",
+      "dimensions": [
+        750,
+        2141
+      ],
+      "rights": "Public preview from third-party repost, watermarked; original publisher permission not verified; local research only",
+      "inspected_contents": "Character profile/art spreads including Tokai Teio and Rice Shower, not a turnaround sheet"
+    }
+  ]
+}

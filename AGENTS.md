@@ -1,53 +1,58 @@
 # hachimi.tv
 
-## 产品与范围
+## Product and Scope
 
-- 产品为哈基米小马的视频与音乐生成平台：用户提供参考素材和创作描述，生成、管理并分享自己的作品。导航围绕创作、发现、搜索、我的作品、参考素材和收藏组织。
-- 区分产品目标与实际实现。当前以界面和本地交互为主，认证、素材存储和生成服务尚未接通。修改前核实实际调用路径，不将占位、模拟反馈或本地文件选择描述为真实上传、生成或保存。
-- 不自行增加积分、套餐、排行榜、任务奖励、社交系统或其他无关流程。常规实现选择直接完成，架构不确定性会造成实质返工时再澄清。
+- The product is a platform for creating Hachimi music, music videos (MVs), and videos, rooted in Hachimi and Uma Musume meme and fan creation culture. Users create, manage, and share works using reference materials and creative prompts. Primary navigation is ordered as creation, discovery, characters, and assets. Search belongs within discovery and has no separate navigation entry. My space contains my works and my favorites.
+- Music, MV, and video creation are the current core scope. MMD playback and related capabilities may be explored later. MMD is a possible future direction, with no implementation commitment; do not add related entry points, dependencies, or architecture in advance.
+- Distinguish product goals from implemented behavior. The platform includes a built-in character library with seven characters and 37 bundled images. Email/password authentication and a personal COS drive with a default 10GB quota are connected; generation services are not connected. Verify actual execution paths before making changes. Do not describe placeholders, simulated feedback, or local file selection as real uploads, generation, or persistence.
+- Do not introduce credits, plans, leaderboards, task rewards, social systems, or unrelated flows. Make routine implementation decisions directly; clarify architectural uncertainty only when it could cause substantial rework.
 
-## 技术与组织
+## Technology and Organization
 
-- 使用 Next.js App Router、React、TypeScript、Tailwind CSS v4 与 shadcn/ui，包管理器遵循 `package.json` 的 `packageManager`，依赖和 `pnpm-lock.yaml` 同步维护。
-- 路由与布局位于 `app/`，业务组件位于 `components/`，shadcn 基础组件位于 `components/ui/`，通用 Hook 位于 `hooks/`。项目不使用 Supabase。先读相关代码和 `components.json`，沿用现有职责与配置。
-- shadcn 使用 `radix-nova`、Radix UI 与 Lucide 图标；优先复用现有组件、变体和主题变量，不重新引入 HeroUI 或并行维护另一套组件系统。业务专属样式留在业务组件，不随意改基础组件影响所有页面。
-- 不添加无必要的依赖、抽象或测试框架。不提前构造通用生成引擎、仓储层、任务调度系统或多供应商兼容层。
-- 查询库、框架、SDK、API、CLI 或云服务用法时，先用 Context7 `resolve-library-id`，再 `query-docs`；优先官方资料。写 Next.js 相关代码前同时阅读本地 `node_modules/next/dist/docs/` 的对应文档。
+- Use Next.js App Router, React, TypeScript, Tailwind CSS v4, and shadcn/ui. Follow the `packageManager` field in `package.json` and keep dependencies synchronized with `pnpm-lock.yaml`.
+- Routes and layouts belong in `app/`, business components in `components/`, shadcn primitives in `components/ui/`, and shared hooks in `hooks/`. The project does not use Supabase. Read relevant code and `components.json` first, and follow existing responsibilities and configuration.
+- shadcn uses `radix-nova`, Radix UI, and Lucide icons. Reuse existing components, variants, and theme variables. Do not reintroduce HeroUI or maintain a parallel component system. Keep business-specific styles in business components; avoid changing primitives in ways that affect every page.
+- Do not add unnecessary dependencies, abstractions, or test frameworks. Do not build generic generation engines, repository layers, task schedulers, or compatibility layers for multiple providers in advance.
+- For library, framework, SDK, API, CLI, or cloud service usage, read current official documentation, repositories, and protocol specifications. Before writing Next.js code, also read the relevant local documentation under `node_modules/next/dist/docs/`.
 
-## 视觉与组件
+## Visuals and Components
 
-- 保持 shadcn 的组件结构、交互和一致性。使用官网 block 时先读取原版，明确哪些部分沿用、哪些部分改造，不将只使用少量组件称为完整还原。
-- 当前视觉方向为蜂蜜黄主色、奶油白底与暖色氛围，红白蓝斜条纹作为少量装饰，可借鉴赛马娘的活力和赛场元素。品牌为猫图标与 `hachimi.tv`，不显示版本号或无意义的版本切换。
-- 颜色优先通过 `app/globals.css` 中的语义主题变量维护，避免页面各自覆盖同一套按钮、卡片、输入框。装饰不得影响可读性、焦点反馈和移动端布局；动画尊重减少动态效果的系统偏好。
-- 保持字体默认字间距，不使用 `tracking-*`、`letter-spacing` 或插空格模拟字距。不要用大量英文口号、编号、装饰标签填充界面。
-- 搜索图片与角色素材可用于研究配色和构图；实际引入素材时核实来源与使用条件，不把参考图或未核实资产当作已获许可的发布素材。
+- Preserve shadcn component structure, interactions, and consistency. When using an official block, read the original first and identify what is reused and what is adapted. Do not claim a complete reproduction when only a few components are used.
+- The visual direction uses honey yellow, cream backgrounds, and a warm atmosphere, with occasional red, white, and blue diagonal stripes. Draw inspiration from the energy and racing elements of Uma Musume. The brand uses a cat icon with the localized name: `基米TV` for Simplified and Traditional Chinese, `Hachimi TV` for English, and `ハチミーTV` for Japanese. Keep `hachimi.tv` as the domain; do not display version numbers or meaningless version switching.
+- Maintain colors through semantic theme variables in `app/globals.css` instead of overriding the same buttons, cards, and inputs on individual pages. Decoration must preserve readability, focus feedback, and mobile layouts. Respect the system preference for reduced motion.
+- Animations can be rich and lively. Use bouncing, subtle swaying, staggered entrances, and similar effects for hover, clicks, transitions, entrances, and creation feedback to convey the rhythm of Hachimi and Uma Musume fan creations. Avoid persistent reading distractions or blocking interactions.
+- Keep default font spacing. Do not use `tracking-*`, `letter-spacing`, or inserted spaces to simulate letter spacing. Do not fill the interface with English slogans, numbering, or decorative labels.
+- Image and character searches may inform color and composition research. Verify sources and usage terms before incorporating assets; reference images and unverified assets are not licensed release materials.
 
-## 界面文案与 desc
+## UI Copy and Descriptions
 
-- 禁止使用中点符号（Unicode U+00B7）作为文案或分隔符，适用于界面、文档和回复。页面标题统一使用 `hachimi.tv | 页面名称或简短主题` 格式。
-- 界面首先依靠清楚的名称、布局和操作反馈表达用途。不要默认给每个页面、区块、卡片或表单附加说明段落、副标题、提示卡或 desc。
-- 谨慎使用 `description`、`CardDescription`、`FieldDescription`、`FormDescription`、Tooltip、Alert 等说明组件。仅在用户完成操作或作出决策确实需要时添加；这是对界面说明文案的约束，不是禁止 SEO metadata、数据字段或第三方 API 中必要的同名属性。
-- 标签能表达清楚就只保留标签。占位文本不重复标签，副标题不复述标题，卡片不为了凑布局添加描述。同一条限制或说明只在所属位置写一次。
-- 必要说明聚焦格式要求、操作后果、进度或错误恢复，放在对应操作附近。不要在产品界面铺陈内部实现、开发状态或为界面设计辩解的文字。
-- 未接入的能力不能伪装成功：优先隐藏或禁用尚不可用的操作；演示确需保留入口时给出一处简短、准确的反馈，不到处写“尚未接入”“即将上线”。技术边界和未完成项写在交付说明中。
+- Support English, Simplified Chinese, Traditional Chinese, and Japanese through the shared messages in `lib/i18n.ts`. Default to browser language preferences and the system color scheme; preserve explicit user overrides. Keep navigation and state identifiers independent of translated labels.
+- Do not use the middle dot character (Unicode U+00B7) in copy or as a separator, including UI, documentation, and responses. Use the page title format `<localized brand> | <localized page name or short topic>`.
+- Communicate purpose through clear names, layout, and interaction feedback. Do not add descriptions, explanatory paragraphs, subtitles, or hint cards by default, or attach explanations to every page, section, card, and form.
+- Use `description`, `CardDescription`, `FieldDescription`, `FormDescription`, Tooltip, Alert, and similar explanatory components only when users need them to complete an action or make a decision. This rule concerns UI explanations, not necessary SEO metadata, data fields, or third-party API properties with the same names.
+- Use a label alone when it is sufficient. Placeholders must not repeat labels, subtitles must not restate titles, and cards must not include descriptions merely to fill space. State each restriction or explanation once, at its relevant location.
+- Do not pile on hints, tutorials, or examples. Do not add sample prompts, sample content, instructions, or guidance such as "You can..." by default. Add only the minimum information needed when users would otherwise be unable to complete the current action.
+- Necessary explanations should cover format requirements, action consequences, progress, or error recovery, near the relevant action. Do not fill the product UI with implementation details, development status, or justifications for the design.
+- Unconnected capabilities must not pretend to succeed. Prefer hiding or disabling unavailable actions. If a demo needs an entry point, provide one brief, accurate response instead of repeating "not connected" or "coming soon" throughout the UI. Report technical boundaries and unfinished work in delivery notes.
 
-## 实现与验证
+## Implementation and Verification
 
-- 先阅读相关代码、规范与现有验证，确认执行路径和职责归属，再修改。修复在责任模块完成，同步受影响的调用方，不为假想场景扩展范围。
-- 内部遵循明确的类型和调用契约，不堆叠重复判空、宽泛异常捕获、静默兜底、无依据的重试或兼容层。外部输入、上传、认证授权与数据完整性所需校验集中放在实际边界。
-- 不增加无用围栏、重复确认或流程门槛。测试与改动风险相称，不添加一次性测试、实现细节镜像测试、文案清单测试或仅为覆盖率存在的测试。
-- 代码改动按影响运行 `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`。界面和交互改动在浏览器检查实际效果、关键路径与必要的窄屏布局；检查通过后不无故重复扩大验证。
-- 文档与格式修改只核对内容、引用、差异和文件清单，不为此运行完整构建。交付如实说明实际完成、实际执行的检查和必要限制，不将设计目标写成完成状态。
+- Read relevant code, specifications, and existing checks before editing. Establish execution paths and module responsibilities. Fix issues in the responsible module and update affected callers without expanding scope for hypothetical scenarios.
+- Avoid defensive programming without a concrete basis. Follow explicit internal types and contracts instead of stacking duplicate null checks, broad exception handling, silent fallbacks, unjustified retries, or compatibility layers. Centralize necessary validation for external input, uploads, authentication, authorization, and data integrity at actual boundaries.
+- Without a concrete requirement or demonstrated risk, do not introduce allowlists, origin or cross-origin checks, file type or size restrictions, usage limits, or other access barriers. Implement necessary validation only at the boundary responsible for that constraint, rather than scattering the same check across layers.
+- Do not add unnecessary guardrails, repeated confirmations, or workflow barriers. Keep testing proportional to the change. Do not add throwaway tests, tests that mirror implementation details, copy checklist tests, or tests that exist solely for coverage.
+- For code changes, run `pnpm lint`, `pnpm exec tsc --noEmit`, and `pnpm build` as appropriate to the impact. Check UI and interaction changes in a browser, including actual appearance, key paths, and necessary narrow-screen layouts. Do not repeat or broaden verification without a reason after checks pass.
+- For documentation and formatting changes, verify content, references, diffs, and the changed file list without running a full build. Report actual work, checks performed, and necessary limitations accurately; do not present design goals as completed behavior.
 
-## 凭据与仓库维护
+## Credentials and Repository Maintenance
 
-- 调用需认证的服务前，优先复用目标项目、账号和环境对应的有效缓存；核对作用域、环境与过期时间，不因缓存存在就判定有效，不跨项目或环境混用凭据。
-- 临时 token 过期时优先通过官方方式静默续期，只更新目标项目缓存；不自动打开网页登录或覆盖共享凭据。缓存与静默续期均不可用时再说明原因并请求授权。
-- 不在聊天、日志、截图、报告或提交中暴露 token、API Key、Secret 或环境文件内容。浏览器可见配置视为公开信息；服务端密钥不得进入客户端。
-- 不提交依赖目录、构建产物、密钥或一次性截图、报告和脚本。临时材料使用仓库外的任务目录或已忽略的本地目录。
-- 修改文档时与实际实现保持一致，不照搬其他仓库的目录、部署方案和分支策略。日常修复或规范更新不顺带改 README；产品介绍与开发、部署说明分别维护。
-- 不覆盖用户未提交的修改。提交前检查 diff、status 与暂存清单，只按明确路径暂存当前任务；创建分支默认使用 `codex/` 前缀，提交使用英文 Conventional Commits，推送与发布按用户授权执行。
-- 交流与文档使用中文，代码标识符、文件名和提交信息使用英文。回复先写结论，再给依据，删除重复免责声明、过度限定和假想误解的解释。
+- Before calling authenticated services, reuse valid cached credentials for the target project, account, and environment. Verify scope, environment, and expiration; the existence of a cache alone does not establish validity. Never mix credentials across projects or environments.
+- When a temporary token expires, prefer silent renewal through officially supported methods and update only the target project's cache. Do not automatically open browser login or overwrite shared credentials. Request authorization only after confirming that cached credentials and silent renewal are unavailable, explaining the specific reason.
+- Never expose tokens, API keys, secrets, or environment file contents in chat, logs, screenshots, reports, or commits. Treat browser-visible configuration as public; server secrets must never reach the client.
+- Do not commit dependency directories, build outputs, secrets, or temporary screenshots, reports, and scripts. Store temporary materials outside the repository or in an ignored local directory.
+- Keep documentation aligned with the actual implementation. Do not copy directory structures, deployment plans, or branching policies from other repositories. Do not update the README incidentally during routine fixes or guideline updates. Maintain product introductions separately from development and deployment instructions.
+- Preserve the user's uncommitted changes. Before committing, inspect the diff, status, and staged file list, and stage only explicit paths for the current task. Use the `codex/` branch prefix by default. All commits must follow Conventional Commits with English messages, using a type such as `feat`, `fix`, or `docs` and an optional scope. Push and publish only as authorized by the user.
+- Use English in `AGENTS.md` and `README.md`. Keep conversations and other documentation in Chinese unless requested otherwise. Use English for code identifiers, filenames, and commit messages. Lead responses with the conclusion, then the evidence. Remove repeated disclaimers, excessive qualifications, and explanations of hypothetical misunderstandings.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
@@ -58,3 +63,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Built-in Materials
+
+- Ship built-in images in `public/materials/builtin/` and retain character identities, source links, hashes, and rights metadata in `references/characters/catalog.json`. Built-in browsing must not depend on COS, login, signed URLs, or an extra local server.
+- Keep built-in materials separate from user uploads. Model entries link to distribution pages; model binaries and MMD playback are not included.

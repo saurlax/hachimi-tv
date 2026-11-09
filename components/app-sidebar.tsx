@@ -1,6 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
+import { authClient } from "@/lib/auth-client";
+import { usePreferences } from "@/components/preferences-provider";
 import {
   Cat,
   Compass,
@@ -8,8 +11,9 @@ import {
   Images,
   Library,
   LogIn,
-  Search,
+  LogOut,
   Sparkles,
+  UsersRound,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -24,29 +28,34 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
+  useSidebar,
 } from "@/components/ui/sidebar";
 
 export type WorkspaceSection =
-  "创作" | "发现" | "搜索" | "我的作品" | "参考素材" | "收藏";
+  "create" | "discover" | "works" | "characters" | "assets" | "favorites";
 const main = [
-  { title: "创作" as const, icon: Sparkles },
-  { title: "发现" as const, icon: Compass },
-  { title: "搜索" as const, icon: Search },
+  { title: "create" as const, icon: Sparkles },
+  { title: "discover" as const, icon: Compass },
+  { title: "characters" as const, icon: UsersRound },
+  { title: "assets" as const, icon: Images },
 ];
 const workspace = [
-  { title: "我的作品" as const, icon: Library },
-  { title: "参考素材" as const, icon: Images },
-  { title: "收藏" as const, icon: FolderHeart },
+  { title: "works" as const, icon: Library },
+  { title: "favorites" as const, icon: FolderHeart },
 ];
 
 export function AppSidebar({
-  active = "发现",
+  active = "discover",
   onNavigate,
   ...props
 }: React.ComponentProps<typeof Sidebar> & {
   active?: WorkspaceSection;
   onNavigate?: (section: WorkspaceSection) => void;
 }) {
+  const { t } = usePreferences();
+  const { data: session, isPending } = authClient.useSession();
+  const [sessionError, setSessionError] = useState(false);
+  const { isMobile, setOpenMobile } = useSidebar();
   function menu(items: typeof main | typeof workspace) {
     return (
       <SidebarMenu>
@@ -54,11 +63,11 @@ export function AppSidebar({
           <SidebarMenuItem key={title}>
             <SidebarMenuButton
               isActive={active === title}
-              onClick={() => onNavigate?.(title)}
+              onClick={() => { onNavigate?.(title); if (isMobile) setOpenMobile(false); }}
               aria-current={active === title ? "page" : undefined}
             >
               <Icon />
-              <span>{title}</span>
+              <span>{t(title)}</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
         ))}
@@ -67,7 +76,7 @@ export function AppSidebar({
   }
   return (
     <Sidebar {...props}>
-      <SidebarHeader className="relative overflow-hidden pt-5 pb-4">
+      <SidebarHeader className="relative overflow-hidden pt-4">
         <div
           aria-hidden="true"
           className="racing-ribbon absolute inset-x-0 top-0 h-1.5"
@@ -75,12 +84,12 @@ export function AppSidebar({
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <Link href="/" aria-label="hachimi.tv 首页">
-                <span className="flex size-9 items-center justify-center rounded-xl border border-amber-400/60 bg-primary">
-                  <Cat className="size-6!" strokeWidth={1.75} />
+              <Link href="/" aria-label={`${t("brand")} ${t("home")}`}>
+                <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+                  <Cat className="size-5!" strokeWidth={1.75} />
                 </span>
-                <span className="text-lg font-semibold tracking-tight">
-                  hachimi.tv
+                <span className="truncate text-base font-semibold">
+                  {t("brand")}
                 </span>
               </Link>
             </SidebarMenuButton>
@@ -92,20 +101,16 @@ export function AppSidebar({
           <SidebarGroupContent>{menu(main)}</SidebarGroupContent>
         </SidebarGroup>
         <SidebarGroup>
-          <SidebarGroupLabel>我的空间</SidebarGroupLabel>
+          <SidebarGroupLabel>{t("workspace")}</SidebarGroupLabel>
           <SidebarGroupContent>{menu(workspace)}</SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      <SidebarFooter className="gap-3 border-t p-4">
-        <p className="px-2 text-xs leading-5 text-muted-foreground">
-          用参考素材，创作你的小马视频与音乐。
-        </p>
-        <Button asChild>
-          <Link href="/login">
-            <LogIn />
-            登录 / 注册
-          </Link>
-        </Button>
+      <SidebarFooter className="border-t">
+        {session ? <>
+          <span className="truncate px-2 text-sm">{session.user.name}</span>
+          <Button variant="outline" onClick={async () => { const result = await authClient.signOut(); setSessionError(!!result.error); }}><LogOut />{t("signOut")}</Button>
+          {sessionError && <p role="alert" className="text-xs text-destructive">{t("authFailed")}</p>}
+        </> : <Button asChild disabled={isPending}><Link href="/login"><LogIn />{t("signIn")}</Link></Button>}
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
